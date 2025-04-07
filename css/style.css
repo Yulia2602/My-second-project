@@ -241,9 +241,9 @@ align-items: flex-end; */
 }
 
 /* Секция services */
-.services {
+#services {
     padding-top: 118px;
-    padding-bottom: 115px;
+    /* padding-bottom: 115px; */
 }
 
 .services__inner {}
@@ -336,6 +336,53 @@ font-size: 13px;
 line-height: 23px;
 letter-spacing: 0.1875px;
 color: #48555B;
+}
+
+/* Секция get_it_touch */
+#get_it_touch{
+    min-height: 499px;
+    background-image: url(../img/get-bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.get__title {
+font-size: 30px;
+line-height: 36px;
+letter-spacing: 0.15px;
+font-weight: bold;
+color: #48555B;
+text-align: center;
+max-width: 350px;
+margin: 0 auto;
+margin-bottom: 35px;
+padding-top: 120px;
+}
+.get__btn {
+    margin: 0 auto;
+    background-color: #00A4E5;
+    max-width: 150px; ;
+    max-height: 40px;
+    padding: 11px 26px;
+    border: none;
+    
+}
+.get__btn a{
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+/* letter-spacing: 0.5px; */
+font-weight: bold;
+color: #FFFFFF;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.get__btn:hover {
+    background-color: #31718a;
+    transition: 0.5s ease;
+    transform: scale(1.1);
 }
 
 /* Медиазапросы */
