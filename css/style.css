@@ -43,6 +43,7 @@ align-items: flex-end; */
     font-weight: bold;
     letter-spacing: 2.30625px;
     color: #48555B;
+    margin-bottom: 10px;
 
 }
 
@@ -151,7 +152,7 @@ align-items: flex-end; */
 
 /* Секция About */
 #about {
-    padding-top: 51px;
+    padding-top: 52px;
     padding-bottom: 118px;
 }
 
@@ -239,6 +240,103 @@ align-items: flex-end; */
     background-image: url(../img/about-img-3.jpg);
 }
 
+/* Секция services */
+.services {
+    padding-top: 118px;
+    padding-bottom: 115px;
+}
+
+.services__inner {}
+
+.services__title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+
+}
+
+.h2__title-h2 {
+    margin-bottom: 14px;
+}
+
+.line {}
+
+.services__line {
+    margin-left: 0;
+}
+
+.services__title_text-btn {
+    display: flex;
+}
+
+.services__title__text {
+    max-width: 405px;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #48555B;
+    font-weight: 400;
+    margin-right: 32px;
+}
+
+.services__title__btn {
+    background-color: #00A4E5;
+    border: none;
+    max-width: 150px;
+    max-height: 40px;
+    padding: 0 25px;
+}
+
+.services__title__btn:hover {
+    background-color: #31718a;
+
+}
+.services__title__btn a{
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.services__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.services__grid-item {
+    padding: 38px 23px 39px 20px;
+border: #E6E6E6 solid 1px;
+
+}
+
+.services__img {
+    display: block;
+    max-width: 66px;
+    max-height: 75px;
+    margin-bottom: 25px;
+
+}
+
+.services__grid__title {
+text-transform: uppercase;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.426667px;
+color: #48555B;
+font-weight: bold;
+margin-bottom: 13px;
+
+}
+
+.services__grid__text {
+font-weight: 400;
+font-size: 13px;
+line-height: 23px;
+letter-spacing: 0.1875px;
+color: #48555B;
+}
 
 /* Медиазапросы */
 @media screen and (max-width: 1440px) {
@@ -281,6 +379,10 @@ align-items: flex-end; */
         margin-bottom: 30px;
     }
 
+    .services__grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+
 
 
 }
@@ -294,6 +396,12 @@ align-items: flex-end; */
     .about__block__img {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    
+    .services__grid {
+        grid-template-columns: repeat(1,1fr);
+    }
+
 }
 
 @media screen and (max-width: 415px) {
