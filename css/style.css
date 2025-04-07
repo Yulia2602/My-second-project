@@ -442,13 +442,34 @@ text-decoration: none;
 
     .about__block__img {
         grid-template-columns: repeat(1, 1fr);
+        
     }
 
-    
+    .about__block__text{
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    .about__block {
+        flex-direction: column;
+        align-items: center;
+    }
     .services__grid {
         grid-template-columns: repeat(1,1fr);
     }
+    .services__title {
+    flex-direction: column;
+    align-items: center;
+    
+    }
 
+    .services__title_text-btn {
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        margin: 0 auto;
+    }
+    
 }
 
 @media screen and (max-width: 415px) {
