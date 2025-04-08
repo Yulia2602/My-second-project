@@ -27,6 +27,9 @@ a {
     padding: 0;
 }
 
+button{
+    outline: none;
+}
 .container {
     margin: 0 auto;
     max-width: 1440px;
@@ -367,7 +370,8 @@ padding-top: 120px;
     max-height: 40px;
     padding: 11px 26px;
     border: none;
-    outline: none;
+    
+    
     
 }
 .get__btn a{
